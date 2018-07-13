@@ -1,0 +1,114 @@
+/* warehouse单据公用css */
+.el-dialog__wrapper .el-dialog{
+  background: #f5f5f5;
+}
+.el-dialog__wrapper .el-dialog__body{
+  padding:0px 10px 10px 0px;
+  height:calc(100% - 10px);
+}
+.fant-form .el-form-item--small.el-form-item{
+  margin:0;
+}
+.editForm{
+  height:calc(100% - 20px);
+}
+.warehouseMain{
+  width:calc(100% - 20px);
+  height:calc(100% - 73px) !important;
+  padding:10px;
+  min-width:800px;
+  background:#fff;
+}
+.warehouseMain .fantTable .el-form-item--small.el-form-item{
+  margin:0;
+  width:100%;
+}
+.warehouseMain .fantTable .el-form-item--small.el-form-item .el-form-item__content{
+  width:100%;
+}
+.fant-td{
+  width:100%;
+}
+.miniBtn{
+  padding:4px !important;
+  vertical-align: text-top;
+}
+.warehouseBox .mainBox{
+  margin: 10px 0;
+}
+.warehouseBox .mainBox .el-col{
+  height: 32px;
+  margin-top: 10px;
+}
+.warehouseMain .el-table--small th {
+  height:35px;
+}
+.warehouseMain .el-table--small td {
+  height:45px;
+}
+.tableBox .el-table--small th ,.tableBox .el-table--small td {
+  height:40px;
+}
+.warehouseFooter{
+  border-top:1px solid #ddd;
+}
+.warehouseBox .footer{
+  padding:10px;
+  float:right;
+}
+.actionHeader{
+  background:#fff;
+  padding:10px;
+  margin-top:10px;
+  margin-bottom:10px;
+}
+.actionHeader .el-form-item--small.el-form-item {
+  margin-bottom: 0px;
+}
+.actionHeader .inputItem .el-form-item__content{
+  width:calc(100% - 70px);
+}
+.warehouseMain .inputItem .el-form-item__content{
+  width:calc(100% - 110px);
+}
+.tableActionBtn{
+  font-size:18px !important;
+  padding:0 !important;
+  margin: 0 !important;
+  float: left;
+  margin-left:5px !important;
+}
+
+/*列表页*/
+.erpBox{
+  margin:10px 10px 10px 0;
+  width:calc(100% - 10px);
+  height:calc(100% - 20px);
+  min-width:800px;
+}
+.actionBtn{
+  font-size:12px;
+  padding:0;
+}
+.actionHeader-more .action{
+  margin-top:5px;
+  float:right;
+}
+.actionBtn >>> i:before{
+  font-size:14px;
+}
+.actionBtn-more{
+  height:44px;
+  line-height:44px;
+}
+.col-set{
+  color:#616161;
+}
+.col-set i{
+  font-size:16px;
+}
+.tableBox{
+  background:#fff;
+  height:calc(100% - 95px);
+  padding:10px 10px 5px;
+}

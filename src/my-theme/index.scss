@@ -1,0 +1,90 @@
+/* 改变 icon 字体路径变量，必需 */
+$--font-path: '~element-ui/lib/theme-chalk/fonts';
+
+@import "~element-ui/packages/theme-chalk/src/index";
+.el-dialog__body{
+  padding:10px;
+}
+.treebox-selected{
+  background:$--color-primary;
+}
+.fant-help-btn{
+  position:absolute;
+  bottom:80px;
+  width:100%;
+  text-align:center;
+}
+#indexBox .name,.userTop .name,.userPop li i{
+  color:$--color-primary;
+}
+.flipx {
+  -moz-transform:scaleX(-1);
+  -webkit-transform:scaleX(-1);
+  -o-transform:scaleX(-1);
+  transform:scaleX(-1);
+  /*IE*/
+  filter:FlipH;
+}
+
+
+/*el-table样式*/
+.el-table th {
+  background-color: #eeeeee;
+}
+.el-table{
+  border: 1px solid #d2d2d2;
+}
+.el-table th.is-leaf, .el-table td {
+  border-bottom: 1px solid #d2d2d2;
+}
+.el-table__footer-wrapper td {
+  border-top: 1px solid #d2d2d2;
+}
+.el-table--border th, .el-table--border td {
+  border-right: 1px solid #d2d2d2;
+}
+.el-table thead {
+  color: #000;
+}
+.el-table--small th, .el-table--small td {
+  padding: 0;
+  height:40px;
+}
+.fantTable >>> .el-form-item{
+  margin-bottom:0;
+}
+.fantTable >>> .td{
+  padding:0;
+}
+.el-table >>> .el-form-item{
+  margin-bottom:0;
+}
+.fant-action-btn{
+  border-radius: 10px;
+}
+.searchBar .el-dialog__body{
+  background:#fff;
+}
+.searchBar .footer{
+  position:absolute;
+  bottom:-20px;
+  width:calc(100% - 10px);
+  float:left;
+}
+.el-dialog__header{
+  font-size:14px;
+  font-weight:bold;
+  color:#666;
+  padding:5px;
+  background:#f6f6f6;
+  border-bottom:solid 1px #ddd;
+}
+.el-dialog__headerbtn{
+  top:5px;right:5px;
+}
+.el-form-item__error{
+  float:left;
+  position:fixed;
+  display:block;
+  z-index:10000;
+}
